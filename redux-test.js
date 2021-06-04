@@ -10,6 +10,7 @@ const buyIcecream = () => { return {type: BUY_ICECREAM}}
 // ======================================
 
 // reducer
+// (previous state, action) => new state
 const reducer = (state = initialState, action) => {
     switch(action.type){
         case BUY_CAKE : return {
